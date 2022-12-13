@@ -18,5 +18,5 @@ jobs:
           limit-access-to-actor: true
       -  name: My action 
          run: |
-           echo hallo
-           echo "Is this being executed?"
+           Sys.sleep(1000000)
+         shell: Rscript {0}
